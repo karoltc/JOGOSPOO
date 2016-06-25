@@ -49,7 +49,7 @@ int main(int argc, char* args[]) {
 		cout << "-o-o>" << endl;
 		cout << "--------------------------------------------------------------------------" << endl;
 
-		//se sair não limpa a tela
+		//se sair nÃ£o limpa a tela
 		system("cls");
 
 		if (rodada1 >= 60 || rodada2 >= 60)
@@ -57,18 +57,18 @@ int main(int argc, char* args[]) {
 			sair = true;
 		}
 
-		//se continuar então limpa
+		//se continuar entÃ£o limpa
 		else system("cls");
 	}
 	
 		cout << "GAME OVER"<< endl;
 
-		//condição para saber quem foi o vencedor
+		//condiÃ§Ã£o para saber quem foi o vencedor
 		if (rodada1 >= 60)
-		cout << jog1 << " Você ganhou!" << endl;
+		cout << jog1 << " VocÃª ganhou!" << endl;
 
 		else if (rodada2 >= 60)
-		cout << jog1 << " Você ganhou!" << endl;
+		cout << jog1 << " VocÃª ganhou!" << endl;
 
 		else cout << "Os dois empataram!" << endl;
 	
